@@ -8,10 +8,10 @@ NC='\033[0m' # No Color
 echo -e "${YELLOW}Downloading theme installer...${NC}"
 
 # Download file ZIP dari GitHub (ganti link ini sama link ZIP lu nanti)
-wget https://github.com/Lannn12345/Enigma-Premium-/blob/211286838ff1f40dc413619d8bf9b5a32a0fffcf/ENIGMA%20PREMIUM%20REMAKE%20LANN.zip -O enigma.zip
+wget https://github.com/Lannn12345/Enigma-Premium-/blob/211286838ff1f40dc413619d8bf9b5a32a0fffcf/ENIGMA%20PREMIUM%20REMAKE%20LANN.zip -O enigmalann.zip
 
 echo -e "${YELLOW}Unzipping theme files...${NC}"
-unzip -o ENIGMA PREMIUM REMAKE LANN.zip
+unzip -o enigmalann.zip
 
 cd Enigma-Premium--main
 
